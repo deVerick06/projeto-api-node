@@ -1,0 +1,18 @@
+POST http://localhost:3333/courses
+Content-Type: application/json
+
+{
+    "title": "Curso de SQL"
+}
+
+###
+
+GET http://localhost:3333/courses
+
+###
+
+GET http://localhost:3333/courses/b16da17c-92e3-4383-a21c-df291a173fb9
+
+###
+
+DELETE http://localhost:3333/courses/51064d31-c7b4-4b19-b71a-08dcc650eb14
